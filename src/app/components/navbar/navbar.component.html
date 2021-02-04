@@ -1,32 +1,27 @@
 <nav class="navbar navbar-expand-sm">
-    <div class="container-fluid w-100">
+    <div class="container-fluid w-100" style="height: 100px;">
 
-        <button class="btn btn-outline-success" type="button" data-bs-toggle="collapse" data-bs-target="#navbar" aria-controls="navbar" aria-expanded="false">
-            <i class="fas fa-sliders-h"></i>
-        </button>
+        <div>
 
-        <img src="../../../assets/Logo2.png" alt="">
+            <button class="btn btn-outline-success tog me-5" type="button" data-bs-toggle="collapse" (click)="toggleSideBar()">
+                <i class="fas fa-sliders-h"></i>
+            </button>
+
+            <img src="../../../assets/Logo2.png" alt="">
+        </div>
 
         <form class="d-flex">
             <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
             <button class="btn btn-outline-success" type="submit">Search</button>
         </form>
 
-
-
-        <div class="collapse" id="navbar">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-
-                <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Home</a>
-                </li>
-
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Link</a>
-                </li>
-
-            </ul>
-
-        </div>
     </div>
 </nav>
+
+
+<div class="d-flex animate__animated animate__fadeInLeft" class="sidebar">
+
+    <a routerLink='prod' routerLinkActive="active" [routerLinkActiveOptions]="{exact:true}" class="list-group-item" style="padding-top: 8px;">Productos</a>
+    <a routerLink='prov' routerLinkActive="active" [routerLinkActiveOptions]="{exact:true}" class="list-group-item" style="margin-top: 40px; padding-top: 8px;">Provedores</a>
+    <a routerLink='invent' routerLinkActive="active" [routerLinkActiveOptions]="{exact:true}" class="list-group-item" style="padding-top: 8px; margin-top: 40px;">Inventario</a> padding-top: 8px;
+</div>

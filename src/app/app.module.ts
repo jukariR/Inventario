@@ -1,14 +1,18 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
+//Routes
 import { AppRoutingModule } from './app-routing.module';
+
+//Components
 import { AppComponent } from './app.component';
 import { ProdcutosComponent } from './pages/prodcutos/prodcutos.component';
 import { InventarioComponent } from './pages/inventario/inventario.component';
 import { ProvedoresComponent } from './pages/provedores/provedores.component';
 import { ArticuloComponent } from './pages/articulo/articulo.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
-import { ComponentsModule } from './components/components.module';
+
+
 
 @NgModule({
   declarations: [
@@ -16,13 +20,12 @@ import { ComponentsModule } from './components/components.module';
     ProdcutosComponent,
     InventarioComponent,
     ProvedoresComponent,
-    ArticuloComponent
+    ArticuloComponent,
+    NavbarComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule,
-    ComponentsModule
-    
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]
