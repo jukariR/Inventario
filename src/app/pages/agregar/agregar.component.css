@@ -5,9 +5,28 @@
 .space {
     box-shadow: 10px 10px 20px grey;
     text-align: center;
-    height: 600px;
+    height: 550px;
     width: 70%;
     margin: 100px auto;
+}
+
+.show {
+    height: auto;
+    width: 60%;
+}
+
+.image {
+    margin: auto;
+}
+
+.image>input {
+    display: none;
+}
+
+.image img {
+    width: 80%;
+    height: auto;
+    cursor: pointer;
 }
 
 h3 {
