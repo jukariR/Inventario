@@ -1,13 +1,38 @@
-<div class="d-flex justify-content-evenly">
+<div class="d-flex justify-content-between">
 
     <div class=" d-inline-flex">
         <h3> Productos </h3>
     </div>
 
     <div class="d-inline-flex">
-        <button type="button" class="btn btn-outline-success  agregar">
+        <button type="button" class="btn btn-outline-success  agregar" routerLink="/agregar">
             <i class="fas fa-plus"></i>
         </button>
     </div>
 
+</div>
+
+<div class="row">
+    <div class="col-3 mt-5">
+        <!-- *ngFor="let item of collection" -->
+        <div class="card h-100">
+
+            <img src="..." class="card-img-top" alt="...">
+
+            <div class="card-body">
+                <h5 class="card-title">Nombre art.</h5>
+                <p class="card-text">Precio</p>
+            </div>
+
+            <div class="card-footer">
+                <small class="text-muted">Provedor</small>
+            </div>
+
+            <div class="d-grid gap-2">
+                <!-- hace falta el router link a los articulos  -->
+                <button class="btn btn-outline-success"> Ver Producto </button>
+            </div>
+
+        </div>
+    </div>
 </div>

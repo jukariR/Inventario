@@ -11,6 +11,7 @@ import { InventarioComponent } from './pages/inventario/inventario.component';
 import { ProvedoresComponent } from './pages/provedores/provedores.component';
 import { ArticuloComponent } from './pages/articulo/articulo.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
+import { AgregarComponent } from './pages/agregar/agregar.component';
 
 
 
@@ -21,7 +22,8 @@ import { NavbarComponent } from './components/navbar/navbar.component';
     InventarioComponent,
     ProvedoresComponent,
     ArticuloComponent,
-    NavbarComponent
+    NavbarComponent,
+    AgregarComponent
   ],
   imports: [
     BrowserModule,

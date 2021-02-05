@@ -1,0 +1,27 @@
+.space {
+    box-shadow: 10px 10px 20px grey;
+    text-align: center;
+    height: 600px;
+    width: 70%;
+    margin: 100px auto;
+}
+
+h3 {
+    color: rgb(15, 87, 136);
+}
+
+button {
+    background-color: rgb(199, 199, 199);
+    box-shadow: 1px 10px 15px rgb(102, 102, 102);
+    font-size: 18px;
+    border-radius: 50px;
+    font-weight: 500;
+}
+
+.row {
+    margin-left: 200px;
+}
+
+input {
+    box-shadow: 5px 10px 5px rgb(197, 197, 197);
+}
