@@ -7,6 +7,7 @@ import { InventarioComponent } from './pages/inventario/inventario.component';
 import { ProdcutosComponent } from './pages/prodcutos/prodcutos.component';
 import { ProvedoresComponent } from './pages/provedores/provedores.component';
 import { AdminProvComponent } from './pages/admin-prov/admin-prov.component';
+import { HistorialComponent } from './pages/historial/historial.component';
 
 const routes: Routes = [
   {path: 'prod', component: ProdcutosComponent},
@@ -15,6 +16,7 @@ const routes: Routes = [
   {path: 'prov', component: ProvedoresComponent},
   {path: 'admin', component: AdminProvComponent},
   {path: 'invent', component: InventarioComponent},
+  {path: 'hist', component: HistorialComponent },
   {path: '**', pathMatch:'full' , redirectTo: 'prod'},
 ];
 

@@ -13,6 +13,7 @@ import { ArticuloComponent } from './pages/articulo/articulo.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { AgregarComponent } from './pages/agregar/agregar.component';
 import { AdminProvComponent } from './pages/admin-prov/admin-prov.component';
+import { HistorialComponent } from './pages/historial/historial.component';
 
 
 
@@ -25,7 +26,8 @@ import { AdminProvComponent } from './pages/admin-prov/admin-prov.component';
     ArticuloComponent,
     NavbarComponent,
     AgregarComponent,
-    AdminProvComponent
+    AdminProvComponent,
+    HistorialComponent
   ],
   imports: [
     BrowserModule,
