@@ -12,6 +12,7 @@ import { ProvedoresComponent } from './pages/provedores/provedores.component';
 import { ArticuloComponent } from './pages/articulo/articulo.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { AgregarComponent } from './pages/agregar/agregar.component';
+import { AdminProvComponent } from './pages/admin-prov/admin-prov.component';
 
 
 
@@ -23,7 +24,8 @@ import { AgregarComponent } from './pages/agregar/agregar.component';
     ProvedoresComponent,
     ArticuloComponent,
     NavbarComponent,
-    AgregarComponent
+    AgregarComponent,
+    AdminProvComponent
   ],
   imports: [
     BrowserModule,
