@@ -14,6 +14,7 @@ import { NavbarComponent } from './components/navbar/navbar.component';
 import { AgregarComponent } from './pages/agregar/agregar.component';
 import { AdminProvComponent } from './pages/admin-prov/admin-prov.component';
 import { HistorialComponent } from './pages/historial/historial.component';
+import { ChartsModule } from 'ng2-charts';
 
 
 
@@ -31,7 +32,8 @@ import { HistorialComponent } from './pages/historial/historial.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    ChartsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
